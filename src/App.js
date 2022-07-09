@@ -10,7 +10,7 @@ import NewPlace from "./places/pages/NewPlace";
 function App() {
   return (
     <div className="App">
-      <h1>Starting app</h1>
+     
       <Router>
         <Routes>
           <Route path="/" element={<Users/>} />
