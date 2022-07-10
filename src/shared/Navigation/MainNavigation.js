@@ -15,9 +15,9 @@ export default function MainNavigation() {
 
   return (
     <React.Fragment>
-      {drawerIsOpen && <BackDrop onClick={openCloseDrawer} />}
+      {drawerIsOpen && <BackDrop onClick={openCloseDrawer } />}
       {drawerIsOpen && (
-        <SideDrawer>
+        <SideDrawer onClick={openCloseDrawer}>
           <nav className="main-navigation__drawer-nav">
             <NavLinks />
           </nav>

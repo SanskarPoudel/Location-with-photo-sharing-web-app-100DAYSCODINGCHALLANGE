@@ -18,9 +18,7 @@ export default function NavLinks() {
       <li>
         <NavLink to="/auth">Authenticate</NavLink>
       </li>
-      <li>
-       <h1>Close</h1>
-      </li>
+      
     </ul>
   );
 }
